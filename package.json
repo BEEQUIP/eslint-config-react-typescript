@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-react-typescript",
+  "version": "0.0.1",
+  "description": "ESlint config for React.js/Typescript/Node.js projects at Beequip.",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-cypress": "^2.7.0",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.1.2"
+  }
+}
