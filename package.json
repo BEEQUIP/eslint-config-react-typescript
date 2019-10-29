@@ -1,8 +1,11 @@
 {
   "name": "eslint-config-react-typescript",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "ESlint config for React.js/Typescript/Node.js projects at Beequip.",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.13.0",
@@ -15,7 +18,16 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.1.2"
   },
-  "peerDependancies": {
+  "peerDependencies": {
     "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "np": "^5.1.2"
+  },
+  "scripts": {
+    "release": "np"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
