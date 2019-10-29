@@ -1,10 +1,24 @@
-# Sharable ESlint config for React.js projects in TypeScript at Beequip. 
+# eslint-config-react-typescript 
 
-How to use:
+Shareable config for [ESLint](https://eslint.org/), used in [React.js](https://reactjs.org/) and [TypeScript](https://www.typescriptlang.org/) projects at [BEEQUIP](https://beequip.nl).
 
+## Installing
+
+Install with yarn.
+
+```shell
 yarn add --dev @beequip/eslint-config-typescript-react
+```
 
-Create a new .eslintrc.js file with the following content
+Or npm.
+
+```shell
+npm install --save-dev @beequip/eslint-config-typescript-react
+```
+
+## How to use
+
+Create a new `.eslintrc.js` file in the root of your project with the following content:
 
 ```javascript
 module.exports = {
@@ -14,9 +28,7 @@ module.exports = {
 }
 ```
 
-For more help see the sharable config instructions form the ESlint docs: https://eslint.org/docs/6.0.0/developer-guide/shareable-configs
-
-Do not forget to add the following prettier override config in a .prettierrc file: 
+For an optimal experience, add a Prettier override by creating a `.prettierrc` file in the root of your project.
 
 ```javascript
 {
@@ -27,3 +39,7 @@ Do not forget to add the following prettier override config in a .prettierrc fil
     "trailingComma": "es5"
 }
 ```
+
+## Further reading
+
+For more information on shareable configs for ESLint, see the docs: https://eslint.org/docs/6.0.0/developer-guide/shareable-configs
