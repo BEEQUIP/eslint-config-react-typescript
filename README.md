@@ -7,13 +7,13 @@ Shareable config for [ESLint](https://eslint.org/), used in [React.js](https://r
 Install with yarn.
 
 ```shell
-yarn add --dev @beequip/eslint-config-typescript-react
+yarn add --dev @beequip/eslint-config-react-typescript
 ```
 
 Or npm.
 
 ```shell
-npm install --save-dev @beequip/eslint-config-typescript-react
+npm install --save-dev @beequip/eslint-config-react-typescript
 ```
 
 ## How to use
@@ -23,7 +23,7 @@ Create a new `.eslintrc.js` file in the root of your project with the following 
 ```javascript
 module.exports = {
     'extends': [
-        '@beequip/eslint-config-typescript-react',
+        '@beequip/eslint-config-react-typescript',
     ],
 }
 ```
