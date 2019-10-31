@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-typescript",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ESlint config for React.js/Typescript/Node.js projects at Beequip.",
   "main": "index.js",
   "files": [
