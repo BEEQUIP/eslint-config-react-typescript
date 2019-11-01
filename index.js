@@ -12,6 +12,7 @@ module.exports = {
     'env': {
         'browser': true,
         'node': true,
+        'es6': true
     },
     'plugins': ['@typescript-eslint', 'prettier', 'react', 'react-hooks', 'jest'],
     'parserOptions': {
