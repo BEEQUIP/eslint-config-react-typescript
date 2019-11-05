@@ -34,6 +34,7 @@ module.exports = {
             'args': 'after-used',
             'ignoreRestSiblings': false,
         }],
+        "no-console": "error",
     },
     'overrides': [
         {
