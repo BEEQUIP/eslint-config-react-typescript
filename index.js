@@ -34,6 +34,9 @@ module.exports = {
             'args': 'after-used',
             'ignoreRestSiblings': false,
         }],
+        "no-console": "error",
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
     },
     'overrides': [
         {
