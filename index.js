@@ -27,16 +27,17 @@ module.exports = {
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/explicit-member-accessibility': 'off',
         '@typescript-eslint/no-object-literal-type-assertion': 'off',
-        'react/display-name': 'off',
-        'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': ['error', {
             'vars': 'all',
             'args': 'after-used',
             'ignoreRestSiblings': false,
         }],
+        'no-unused-vars': 'off',
         "no-console": "error",
+        'react/display-name': 'off',
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
+        "react/prop-types": "off",
     },
     'overrides': [
         {
