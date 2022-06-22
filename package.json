@@ -1,6 +1,6 @@
 {
   "name": "@beequip/eslint-config-react-typescript",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "ESlint config for React.js/Typescript/Node.js projects at Beequip.",
   "main": "index.js",
   "files": [
