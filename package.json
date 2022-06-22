@@ -8,21 +8,21 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.18.0",
-    "@typescript-eslint/parser": "^2.18.0",
-    "eslint-config-prettier": "^6.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-config-react": "^1.1.7",
-    "eslint-plugin-cypress": "^2.8.1",
-    "eslint-plugin-jest": "^23.6.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.18.0",
-    "eslint-plugin-react-hooks": "^2.3.0"
+    "eslint-plugin-cypress": "^2.11.1",
+    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.8"
   },
   "peerDependencies": {
     "eslint": "^6.0.1"
   },
   "devDependencies": {
-    "np": "^5.2.1"
+    "np": "^7.6.1"
   },
   "scripts": {
     "release": "np --no-tests"
